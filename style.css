@@ -1,25 +1,21 @@
 body{
-    background-color: rgb(236 141 141);
+    background-color: white;
     color: white;
 }
 .top-div{
     
-    height:500px;
-    
-
-    
+   background-color:rgb(236 141 141);
+   border-radius: 0px 0px 0px 50px;
 }
 .top-nav{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-around;  
 }
-.bloqr{
- width:25px;
-   }
+
 .container{
- display:block;
+ display:flex;
  position:absolute;
-justify-content: space-around;
+ justify-content:space-around;
    }
 .links{
 margin-right: 30px;
@@ -29,6 +25,12 @@ margin-right:25px;
 .last1{
     margin-bottom:10px ;
 }
-a{
-  
+.medium-div{
+    display: flex;
+    justify-content: center;
+
+}
+.btn-mine{
+    display: flex;
+    justify-content: center;
 }
