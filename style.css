@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(236 141 141);
+    color: white;
+}
+.top-div{
+    
+    height:500px;
+    
+
+    
+}
+.top-nav{
+    display: flex;
+    justify-content:space-around;
+}
+.bloqr{
+ width:25px;
+   }
+.container{
+ display:block;
+ position:absolute;
+justify-content: space-around;
+   }
+.links{
+margin-right: 30px;
+justify-content:flex-end;
+margin-right:25px;
+   }
+.last1{
+    margin-bottom:10px ;
+}
+a{
+  
+}
