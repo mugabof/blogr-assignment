@@ -3,24 +3,27 @@ body{
     color: white;
 }
 .top-div{
-    
+    height:400px;
    background-color:rgb(236 141 141);
    border-radius: 0px 0px 0px 50px;
 }
 .top-nav{
     display: flex;
-    justify-content:space-around;  
+    justify-content:space-around;
+    height:50px;  
+
 }
 
 .container{
- display:flex;
- position:absolute;
- justify-content:space-around;
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+
    }
 .links{
-margin-right: 30px;
-justify-content:flex-end;
-margin-right:25px;
+margin-top:20px;
+
+
    }
 .last1{
     margin-bottom:10px ;
@@ -34,3 +37,16 @@ margin-right:25px;
     display: flex;
     justify-content: center;
 }
+.blogr{
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    height:40px;
+    width:200px;
+}
+a {
+    background-color: rgb(247, 99, 99);
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    border-radius:30px;
+  }

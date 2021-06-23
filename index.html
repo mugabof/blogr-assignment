@@ -6,46 +6,161 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Mugabo blogger | [Blogr]</title>
+  <title>Frontend Mentor | [Blogr]</title>
+  <link rel="stylesheet" href="./style-1.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">`
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="top-div">
-    <!--img src="./images/bg-pattern-intro.svg" alt="image"-->
-    <div class="top-nav" >
-      <div class="blogr">
-        <h1>blogr</h1>
+  <div class="container">
+    
+    <header class="headeer">
+      <div class="navigation">
+        <nav class="nav-bar">
+          <h1 id="logo"><a href="#">blogr</a></h1>
+          <a href="#">Products</a>
+          <a href="#">Company</a>
+          <a href="#">Connect</a>
+        </nav>
+        <nav class="authentication">
+          <a href="#">Login</a>
+          <a id="signup" href="#">Signup</a>
+        </nav>
       </div>
-      <div class="container">
-        <h4>Product</h4>
-        <h4>Company</h4>
-        <h4>Connect</h4>
+      <div class="motivation">
+        <h1>A mordern publishing platform</h1>
+        <p>Grow your audience and build your online brand </p>
+        <div class="action">
+          <button class="btn-1">Start for free</button>
+          <button>Learn more</button>
+        </div>
       </div>
-      <div class="links">
-        <a href="#" class="link1">Login</a>
-        <a href="#" class="link2">Sign Up</a>
+      
+    </header>
+   <main class="content"> 
+      <div class="Container-p" >
+        <div class="paragraphs">
+          <h1 id="header" style="text-align: center;">
+            Designed for the future
+          </h1>
+          <div class="first-par">
+            <h2>
+              Introducing an extensible editor
+            </h2>
+            <p>
+              Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+           The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+           videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+           change the looks of a blog.
+            </p>
+            
+          </div>
+          <div class="second-par">
+            <h2>
+              Robust content management
+            </h2>
+            <p>
+              Robust content management
+              Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+            </p>
+          </div> 
+        </div>   
+        <div class="imag">
+          <img class="image" src="./images/illustration-editor-desktop.svg" alt="imageme">
+        </div>
+          
+      </div>
+    
+    <div class="third-container">
+      <div class="third-par">
+        <div>
+          <img src="./images/illustration-phones.svg" alt="imag" class="telphone">
+        </div>
+        <div>
+          <h2 id="texte"> State of the Art Infrastructure </h2>
+            <p class="state">With reliability and speed in mind, worldwide data centers provide <br\>
+              the backbone for ultra-fast connectivity. This ensures your site will load<br\>
+               instantly, no matter where your readers are, keeping your site competitive.
+            </p>
+        </div>
       </div>
     </div>
-    <div class="medium-div">
+    <div class="fourth-par">
       <div>
-       <h1>A Modern Publishing Platform </h1>
-       <h3>Grow your Audience and build your online Brand</h3>
+        <img src="./images/illustration-laptop-desktop.svg">
+      </div>
+      <div>
+        <div>
+          <h1>
+            Free, open, simple
+          </h1>
+          <p>
+            Blogr is a free and open source application backed by a
+             large community of helpful developers. It supports features 
+             such as code syntax highlighting, RSS feeds, social media integration, 
+             third-party commenting tools, and works seamlessly with Google Analytics.
+              The architecture is clean and is relatively easy to learn.
+          </p>
+        </div>
+        <div>
+          <h1>Powerful tooling</h1>
+          <p>
+            Batteries included. We built a simple and straightforward CLI tool that
+             makes customization and deployment a breeze, but capable of producing even
+             the most complicated sites.
+          </p>
+        </div>
       </div>
     </div>
-    <div class="btn-mine">
-      <a class="buttons" href="#">Learn more</a>
-      <a class="buttons" href="#"> Start for free</a>
+     
+   </main>
+
+
+  <!--<footer > -->
+
+  <div class="footer" >
+
+    <div class="Blog">Blogr</div>
+   
+    <div >
+        <h4>Product</h4>
+        <ul>
+            <li>Overview</li>
+            <li>Pricing</li>
+            <li>Marketplace</li>
+            <li>Features</li>
+            <li>Integrations</li>
+        </ul>
     </div>
-  </div>
 
- 
+    <div >
+        <h4>Company</h4>
+        <ul>
+            <li>About</li>
+            <li>Team</li>
+            <li>Blog</li>
+            <li>Careers</li>
+        </ul>
+    </div>
 
-  
+    <div >
+        <h4>Connect</h4>
+        <ul>
+            <li>Contact</li>
+            <li>Newsletter</li>
+            <li>LinkedIn</li>
+        </ul>
+    </div>
+
+    <!--</div> -->
+   
+  <!--</footer> -->
 </body>
 </html>
